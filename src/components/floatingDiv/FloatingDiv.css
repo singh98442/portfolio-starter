@@ -1,0 +1,21 @@
+.floatingimg{
+    transform: scale(1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: -5px;
+    /* border: 2px solid #808080; */
+    border-radius: 20px;
+    background-color: white;
+    /* box-shadow: 2px 2px green; */
+    top: 0px;
+    height: 100px;
+}
+.floatingimg>:nth-child(1){
+    transform: scale(0.7);
+}
+.floatingimg>:nth-child(2){
+    font-weight: bold;
+    text-shadow: 1px 0px blue;
+}

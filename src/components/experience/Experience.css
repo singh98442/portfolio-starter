@@ -1,0 +1,43 @@
+.experience{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+.achievement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.achievement>:nth-child(1){
+    border: 5px solid grey;
+    height: 3rem;
+    width: 2rem;
+    text-align: center;
+    border-radius: 50%;
+}
+.circle>h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+    text-shadow: 2px 0px blue;
+    align-content: center;
+    justify-items: center;
+}
+
+.achievement span:nth-of-type(1){
+    font-weight: bolder;
+    color: blue;
+}
+
+.achievement span:nth-of-type(2){
+    font-weight: bold;
+    color: lightseagreen;
+    font-style: italic;
+}

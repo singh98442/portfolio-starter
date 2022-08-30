@@ -1,0 +1,77 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 4rem;
+}
+.i-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+
+}
+.i-name>:nth-child(1){
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--black);
+}
+.i-name>:nth-child(2){
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--orange);
+    margin-left: 3rem;
+}
+.i-name>:nth-child(3){
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--gray);
+    text-shadow: 1px 0px green;
+    margin-top: 10px;
+}
+
+.i-button{
+    float: left;
+    height: 2rem;
+    width: 6rem;
+}
+
+.i-cons{
+    display: flex;
+    gap: 0rem;
+}
+.i-cons>*{
+    transform: scale(0.4);
+}
+.i-cons>*:hover{
+    cursor: pointer;
+}
+.i-right{
+    flex: 1;
+    position: relative;
+    z-index: 1;
+
+}
+.i-right>*{
+    z-index: 1;
+    /* transform: scale(0.5); */
+    position: absolute;
+}
+.i-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -15;
+    top: -9;
+}
+.i-right>:nth-child(2){
+    transform: scale(0.67);
+    top: -4.6rem;
+    left: -3rem;
+}
+.i-right>:nth-child(3){
+    transform: scale(1.4);
+    left: 28%;
+}
